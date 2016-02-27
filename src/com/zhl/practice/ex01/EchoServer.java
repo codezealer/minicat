@@ -14,6 +14,7 @@ public class EchoServer {
 	
 	public EchoServer() throws IOException {
 		serverSocket = new ServerSocket(port, 1, InetAddress.getByName("127.0.0.1"));
+		
 	}
 	
 	public static void main(String[] args) throws IOException {
